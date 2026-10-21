@@ -34,8 +34,14 @@ name.
 
 ## Quick start
 
-Install the browser half. In Tampermonkey, open the dashboard, create a new
-script, and paste `web-to-cc.user.js` over the template. `make userscript` prints
+Install the browser half. In your favorite userscript manager
+([Tampermonkey](https://www.tampermonkey.net/),
+[Violentmonkey](https://violentmonkey.github.io/), or
+[Greasemonkey](https://www.greasespot.net/) (for Firefox)), open the dashboard,
+create a new script, and paste `web-to-cc.user.js` over the template, or click
+[web-to-cc.user.js](https://raw.githubusercontent.com/didvc/web-to-cc/master/web-to-cc.user.js)
+and it opens the installation confirmation page if any of these Firefox/Chrome
+extensions is installed in your browser. `make userscript` prints
 the `file://` path if you would rather open it directly, which needs
 Tampermonkey's access to file URLs turned on.
 
