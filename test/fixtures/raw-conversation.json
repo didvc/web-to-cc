@@ -1,0 +1,50 @@
+{
+ "uuid": "11111111-2222-3333-4444-555555555555",
+ "name": "Widget pipeline notes",
+ "model": "claude-opus-5-5",
+ "created_at": "2026-10-20T08:57:53.906850Z",
+ "chat_messages": [
+  {
+   "uuid": "aaaaaaa1-0000-0000-0000-000000000001",
+   "sender": "human",
+   "index": 0,
+   "created_at": "2026-10-20T08:57:53.991197Z",
+   "text": "",
+   "content": [{ "type": "text", "text": "how do I batch the widget pipeline? ping me at dev@example.org" }],
+   "files": []
+  },
+  {
+   "uuid": "aaaaaaa1-0000-0000-0000-000000000002",
+   "sender": "assistant",
+   "index": 1,
+   "created_at": "2026-10-20T08:59:12.998852Z",
+   "text": "",
+   "content": [
+    { "type": "thinking", "thinking": "weighing queue options" },
+    { "type": "text", "text": "Chunk the input and fan out with a worker pool." }
+   ],
+   "files": []
+  },
+  {
+   "uuid": "aaaaaaa1-0000-0000-0000-000000000003",
+   "sender": "human",
+   "index": 2,
+   "created_at": "2026-10-20T10:27:07.899994Z",
+   "text": "",
+   "content": [
+    { "type": "image", "file_uuid": "ffff0000-0000-0000-0000-00000000000f" },
+    { "type": "text", "text": "here is the current graph" }
+   ],
+   "files": [{ "file_kind": "image", "file_name": "graph.png" }]
+  },
+  {
+   "uuid": "aaaaaaa1-0000-0000-0000-000000000004",
+   "sender": "assistant",
+   "index": 3,
+   "created_at": "2026-10-20T10:28:32.836657Z",
+   "text": "",
+   "content": [{ "type": "text", "text": "The graph shows a fan-in at stage three." }],
+   "files": []
+  }
+ ]
+}

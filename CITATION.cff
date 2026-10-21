@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+title: web-to-cc
+message: "If you use this work, please cite it using the metadata from this file."
+type: software
+authors:
+  - name: Aesthetic Vulpes
+    alias: didvc
+    website: https://github.com/didvc
+repository-code: https://github.com/didvc/web-to-cc
+license:
+  - MIT
+  - CC-BY-4.0
+version: 0.1.0
+date-released: 2026-10-21
+abstract: >
+  Converts a claude.ai web conversation into a Claude Code session transcript,
+  so a chat started in the browser can be resumed in the terminal. A userscript
+  exports the conversation as JSON with pair selection and redaction, and a
+  dependency free Node CLI writes it into the local session store where /resume
+  looks.
+keywords:
+  - claude-code
+  - claude
+  - userscript
+  - tampermonkey
+  - session
+  - jsonl
+  - transcript
